@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* src/index.css */
+.leaflet-marker-icon, .leaflet-marker-shadow, .marker-cluster {
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+}
